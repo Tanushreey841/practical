@@ -1,0 +1,7 @@
+stages:
+  - test
+
+hello-world:
+  stage: test
+  script:
+    - echo "HELLO, CI/CD"
